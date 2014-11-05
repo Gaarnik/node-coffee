@@ -1,0 +1,11 @@
+{
+  "name": "server-setup",
+  "description": "Sumple Node + CoffeeScript server setup",
+  "author": "Gaarnik",
+  "dependencies": {
+    "coffee-script": "latest",
+    "browserify": "latest",
+    "jade": "latest"
+  },
+  "engine": "node latest"
+}
