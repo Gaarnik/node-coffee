@@ -13,8 +13,6 @@ http://nodejs.org/
 - CoffeeScript:
 http://coffeescript.org/
 
-npm install -g coffee-script
-
 - browserify:
 https://github.com/substack/node-browserify#usage
 
