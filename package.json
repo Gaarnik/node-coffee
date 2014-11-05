@@ -3,6 +3,7 @@
   "description": "Sumple Node + CoffeeScript server setup",
   "author": "Gaarnik",
   "dependencies": {
+  	"express": "latest",
     "coffee-script": "latest",
     "browserify": "latest",
     "jade": "latest"

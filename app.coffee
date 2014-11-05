@@ -1,7 +1,12 @@
-http = require('http')
+express = require('express')
 
-onRequest = (req, res) ->
-	res.writeHead(200, {'Content-Type': 'text/plain'})
-	res.end('Hello CoffeeScript World\n')
+app = express()
 
-http.createServer(onRequest).listen(1337, '127.0.0.1')
+app.set('views', __dirname + '/views')
+app.use(express.static(__dirname + '/../client'))
+
+app.get('/', (req, res) ->
+  res.render('index.jade')
+)
+
+app.listen(3000)
