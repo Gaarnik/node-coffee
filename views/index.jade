@@ -1,5 +1,5 @@
 html(lang="en")
   head
-    script(type='text/javascript', src='client.js')
-body(onLoad='Client.foo();')
+    script(type='text/javascript', src='./bundle.js')
+body(onLoad='new Common().foo();new Client().foo();')
   h1 Hello World !
