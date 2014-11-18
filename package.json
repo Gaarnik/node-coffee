@@ -1,12 +1,14 @@
 {
   "name": "server-setup",
-  "description": "Sumple Node + CoffeeScript server setup",
+  "description": "Sumple Node, CoffeeScript, Express, Jade server setup",
   "author": "Gaarnik",
   "dependencies": {
   	"express": "latest",
-    "coffee-script": "latest",
-    "browserify": "latest",
-    "jade": "latest"
+    "jade": "latest",
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-coffee": "latest",
+    "gulp-browserify": "latest"
   },
   "engine": "node latest"
 }
