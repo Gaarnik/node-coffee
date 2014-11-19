@@ -3,8 +3,10 @@
   "description": "Sumple Node, CoffeeScript, Express, Jade server setup",
   "author": "Gaarnik",
   "dependencies": {
-  	"express": "latest",
+  	"coffee-script": "latest",
+    "express": "latest",
     "jade": "latest",
+    "browserify": "latest",
     "gulp": "latest",
     "gulp-util": "latest",
     "gulp-coffee": "latest",
