@@ -10,7 +10,8 @@
     "gulp": "latest",
     "gulp-util": "latest",
     "gulp-coffee": "latest",
-    "gulp-browserify": "latest"
+    "gulp-browserify": "latest",
+    "del": "latest"
   },
   "engine": "node latest"
 }

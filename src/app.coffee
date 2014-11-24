@@ -2,10 +2,10 @@ express = require('express')
 
 app = express()
 
-app.set('views', __dirname + './../views')
-app.use(express.static(__dirname))
+app.set('views', __dirname + '/public/views/')
+app.use(express.static(__dirname + '/public/'))
 
-Common = require('./common/common')
+Common = require('./public/common/common')
 common = new Common()
 common.foo()
 
